@@ -4,6 +4,7 @@ import uuid from "uuid";
 import Title from "../Components/Title";
 import TodoForm from "../Components/TodoForm";
 import TodoList from "../Components/TodoList";
+import { hot } from "react-hot-loader";
 
 class App extends React.Component {
   constructor(props) {
@@ -56,4 +57,4 @@ class App extends React.Component {
   }
 }
 
-export default App;
+export default hot(module)(App);
