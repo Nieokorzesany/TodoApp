@@ -1,0 +1,12 @@
+.Todo {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 300px;
+}
+
+.Todo button {
+  width: 30px;
+  height: 30px;
+  align-self: center;
+}
